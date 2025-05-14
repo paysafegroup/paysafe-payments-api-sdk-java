@@ -1,0 +1,21 @@
+{
+  "id": "aa5a13f2-8ab6-4378-9f04-e2bccd9c70af",
+  "status": "ACTIVE",
+  "merchantCustomerId": "546456451",
+  "locale": "en_US",
+  "firstName": "John",
+  "middleName": "James",
+  "lastName": "Smith",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 10,
+    "year": 1981
+  },
+  "gender": "M",
+  "email": "john.smith@email.com",
+  "phone": "777-444-8888",
+  "cellPhone": "777-555-8888",
+  "nationality": "Canadian",
+  "ip": "192.0.126.111",
+  "paymentToken": "P85BZm7DjSsYkrt"
+}

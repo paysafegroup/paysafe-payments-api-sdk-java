@@ -1,0 +1,13 @@
+{
+  "merchantRefNum": "54a9c50c5f2707c813e5",
+  "amount": 500,
+  "currencyCode": "USD",
+  "dupCheck": false,
+  "settleWithAuth": false,
+  "paymentHandleToken": "SCPJ4dAVEe8fyoIE",
+  "customerIp": "172.0.0.1",
+  "description": "Magazine subscription",
+  "keywords": [
+    "SILVER"
+  ]
+}

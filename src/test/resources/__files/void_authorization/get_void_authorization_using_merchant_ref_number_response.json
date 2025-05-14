@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "voidAuths": [
+    {
+      "id": "8b84f316-e120-4948-97f6-c97d5a305ee5",
+      "merchantRefNum": "a85c6ed15955adeed35e",
+      "amount": 500,
+      "txnTime": "2023-01-20T05:51:42Z",
+      "status": "COMPLETED"
+    }
+  ]
+}

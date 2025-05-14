@@ -1,0 +1,27 @@
+{
+  "id": "c672fd10-962e-4f57-a1f2-1c3105ffe5d3",
+  "paymentType": "BACS",
+  "paymentHandleToken": "DsOYXhRmFcOCSF2",
+  "merchantRefNum": "167625194625055",
+  "status": "PAYABLE",
+  "masterMerchantId": "6932900",
+  "usage": "MULTI_USE",
+  "action": "NONE",
+  "executionMode": "ASYNCHRONOUS",
+  "creationTime": "2023-01-27T13:09:38Z",
+  "bacs": {
+    "lastDigits": "72",
+    "accountHolderName": "Sally Barnes",
+    "nickName": "Sally's Barclays Account",
+    "sortCode": "086081"
+  },
+  "mandates": [
+    {
+      "id": "6c44d842-5720-4155-beb2-f8704a9daf0f",
+      "reference": "DOCNIG2336",
+      "status": "PENDING"
+    }
+  ],
+  "billingDetailsId": "a85cb1b2-d3b5-44e0-9c1a-4760fb7deceb",
+  "customerId": "7ab149cc-a65c-4a28-b81a-0a271fa568a1"
+}

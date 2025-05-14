@@ -1,0 +1,59 @@
+{
+  "id": "16ff3d63-035c-4a7a-9382-9ceadfcbe236",
+  "accountId": "1009688230",
+  "paymentType": "CARD",
+  "paymentHandleToken": "SC1IlyfnV8trTIX5",
+  "merchantRefNum": "a9b2b8d2b9458c8beeb89dbce669",
+  "currencyCode": "USD",
+  "txnTime": "2023-04-14T08:26:26Z",
+  "billingDetails": {
+    "nickName": "Home",
+    "street": "TEST",
+    "city": "CA",
+    "zip": "12345",
+    "state": "CA",
+    "country": "US"
+  },
+  "customerIp": "172.0.0.1",
+  "status": "PAYABLE",
+  "amount": 100,
+  "action": "NONE",
+  "usage": "SINGLE_USE",
+  "timeToLiveSeconds": 299,
+  "transactionType": "ORIGINAL_CREDIT",
+  "executionMode": "SYNCHRONOUS",
+  "card": {
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "holderName": "Dilip",
+    "cardType": "VI",
+    "cardBin": "403711",
+    "lastDigits": "0001",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "OnlineStore",
+    "phone": "1234567899"
+  },
+  "returnLinks": [
+    {
+      "method": "GET",
+      "rel": "default",
+      "href": "https://usgaminggamblig.com/payment/return/"
+    },
+    {
+      "method": "GET",
+      "rel": "on_completed",
+      "href": "https://usgaminggamblig.com/payment/return/success"
+    },
+    {
+      "method": "GET",
+      "rel": "on_failed",
+      "href": "https://usgaminggamblig.com/payment/return/failed"
+    }
+  ],
+  "skip3ds": false
+}

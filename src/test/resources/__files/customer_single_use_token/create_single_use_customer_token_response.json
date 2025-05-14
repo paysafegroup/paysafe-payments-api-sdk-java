@@ -1,0 +1,71 @@
+{
+  "id": "46776add-2e89-4ec1-96ac-845d017b4ad8",
+  "timeToLiveSeconds": 899,
+  "status": "ACTIVE",
+  "singleUseCustomerToken": "SPfslSE3qEuSCdYF",
+  "paymentTypes": [
+    "CARD"
+  ],
+  "locale": "en_US",
+  "firstName": "John",
+  "middleName": "James",
+  "lastName": "Smith",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 10,
+    "year": 1981
+  },
+  "email": "john.smith@email.com",
+  "phone": "777-444-8888",
+  "ip": "192.0.126.111",
+  "nationality": "Canadian",
+  "addresses": [
+    {
+      "id": "c8af2f97-7d89-413c-80d9-7f3a0c8f5da6",
+      "nickName": "Home",
+      "street2": "Unit 201",
+      "city": "Toronto",
+      "country": "CA",
+      "zip": "M5H 2N2",
+      "status": "ACTIVE",
+      "street": "100 Queen"
+    }
+  ],
+  "paymentHandles": [
+    {
+      "id": "e6ad67f5-16f1-4be6-8944-0b897e3b1380",
+      "status": "INITIATED",
+      "usage": "MULTI_USE",
+      "paymentType": "CARD",
+      "paymentHandleToken": "CPFjDfDKp7SMuhL",
+      "card": {
+        "lastDigits": "2345",
+        "cardExpiry": {
+          "month": "10",
+          "year": "2025"
+        },
+        "cardBin": "453091",
+        "cardType": "VI",
+        "holderName": "Dilip",
+        "status": "ACTIVE",
+        "cardCategory": "CREDIT",
+        "networkToken": {
+          "bin": "489537",
+          "lastDigits": "0000",
+          "status": "ACTIVE",
+          "expiry": {
+            "month": "10",
+            "year": "2025"
+          },
+          "cardArt": {
+            "cardArtUrl": "https://s3.ca-central-1.amazonaws.com/808046016961-aws-ies-ca-central-1-dev-paysafe-hosted/networktoken/card-art/visa/22af01f2bdf445e497895d502dd1f1ae.png",
+            "isCobranded": false
+          }
+        }
+      },
+      "billingDetailsId": "c8af2f97-7d89-413c-80d9-7f3a0c8f5da6",
+      "customerId": "d60fc496-9023-4641-890e-e05c852d2ac4"
+    }
+  ],
+  "customerId": "28511b97-6473-4110-92f7-69bbd3412bd0"
+}

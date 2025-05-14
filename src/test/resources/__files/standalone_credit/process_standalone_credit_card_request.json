@@ -1,0 +1,25 @@
+{
+  "amount": 500,
+  "merchantRefNum": "32be35aac78dbfe252a2",
+  "currencyCode": "USD",
+  "accountId": "1020939450",
+  "paymentHandleToken": "SCQp7CmWCSRFmvzv",
+  "customerIp": "204.91.0.12",
+  "description": "Winning payment from Loto 649",
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    }
+  }
+}

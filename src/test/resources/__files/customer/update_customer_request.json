@@ -1,0 +1,18 @@
+{
+  "merchantCustomerId": "f8303a052",
+  "locale": "en_US",
+  "firstName": "Suresh",
+  "middleName": "Venkata",
+  "lastName": "Chagalamarri",
+  "gender": "M",
+  "dateOfBirth": {
+    "day": 6,
+    "month": 5,
+    "year": 1998
+  },
+  "email": "paysafe@gmail.com",
+  "phone": "777-444-8888",
+  "cellPhone": "777-555-8888",
+  "nationality": "Indian",
+  "ip": "192.0.126.111"
+}

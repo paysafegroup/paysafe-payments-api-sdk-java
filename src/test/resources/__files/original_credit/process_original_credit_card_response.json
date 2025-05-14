@@ -1,0 +1,51 @@
+{
+  "id": "60e333a7-9b51-4859-bdb6-0c96d6c148ed",
+  "paymentType": "CARD",
+  "paymentHandleToken": "SCO3wKcIyLoQbQvw",
+  "merchantRefNum": "ee9010926e3edd01a799",
+  "currencyCode": "USD",
+  "txnTime": "2023-04-14T08:03:34Z",
+  "billingDetails": {
+    "street": "TEST",
+    "city": "CA",
+    "zip": "50005",
+    "state": "CA",
+    "country": "US"
+  },
+  "customerIp": "204.91.0.12",
+  "status": "PENDING",
+  "amount": 500,
+  "description": "Winning payment from Loto 649",
+  "card": {
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "holderName": "Dilip",
+    "cardType": "VI",
+    "cardBin": "403711",
+    "lastDigits": "0001",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    }
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "OnlineStore"
+  },
+  "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+}

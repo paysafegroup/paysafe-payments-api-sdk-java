@@ -1,0 +1,23 @@
+{
+  "paymentHandleToken": "SCTGXiTclLWRk5Pt",
+  "merchantRefNum": "2ca14f87ff6f60976d18",
+  "customerIp": "172.10.12.64",
+  "dupCheck": false,
+  "description": "Winning payment from Loto 649",
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    }
+  }
+}

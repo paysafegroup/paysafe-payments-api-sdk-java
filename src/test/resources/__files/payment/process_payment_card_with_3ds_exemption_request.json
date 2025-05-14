@@ -1,0 +1,10 @@
+{
+  "merchantRefNum": "SCmGpxFlIO9OSDGAxyj5",
+  "amount": 50,
+  "currencyCode": "USD",
+  "dupCheck": true,
+  "settleWithAuth": true,
+  "paymentHandleToken": "GFrIHR722N98kXzO",
+  "customerIp": "172.0.0.1",
+  "description": "Magazine subscription"
+}

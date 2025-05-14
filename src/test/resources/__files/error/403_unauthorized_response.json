@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "5270",
+    "message": "Unauthorized access",
+    "details": [
+      "The credentials do not have permission to access the requested data."
+    ]
+  }
+}

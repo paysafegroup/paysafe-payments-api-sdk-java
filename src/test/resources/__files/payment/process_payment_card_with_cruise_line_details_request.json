@@ -1,0 +1,105 @@
+{
+  "merchantRefNum": "febf0cc749a6c9d243c9",
+  "amount": 500,
+  "currencyCode": "USD",
+  "dupCheck": true,
+  "settleWithAuth": true,
+  "paymentHandleToken": "SCbuMkPGvBGSTCt3",
+  "customerIp": "172.0.0.1",
+  "description": "Magazine subscription",
+  "cruiselineTravelDetails": {
+    "cruiseShipName": "Cruise Ship",
+    "passengerName": "John Doe",
+    "departureDate": "2023-12-15",
+    "returnDate": "2023-12-20",
+    "country": "US",
+    "state": "CA",
+    "originCity": "Barbados",
+    "roomRate": "1200",
+    "travelPackageApplication": "CAR_RENTAL_RESERVATION",
+    "ticket": {
+      "ticketNumber": "1234567891011",
+      "isRestrictedTicket": true
+    },
+    "passengers": {
+      "passenger1": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      },
+      "passenger2": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      },
+      "passenger3": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      },
+      "passenger4": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      },
+      "passenger5": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      },
+      "passenger6": {
+        "ticketNumber": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "phoneNumber": "string",
+        "passengerCode": "string",
+        "gender": "M"
+      }
+    },
+    "tripLegs": {
+      "leg1": {
+        "fare": 1200,
+        "serviceClass": "F",
+        "departureCity": "BDS",
+        "destinationCity": "BDS",
+        "departureDate": "2022-12-20"
+      },
+      "leg2": {
+        "fare": 1200,
+        "serviceClass": "F",
+        "departureCity": "BDS",
+        "destinationCity": "BDS",
+        "departureDate": "2022-12-20"
+      },
+      "leg3": {
+        "fare": 1200,
+        "serviceClass": "F",
+        "departureCity": "BDS",
+        "destinationCity": "BDS",
+        "departureDate": "2022-12-20"
+      },
+      "leg4": {
+        "fare": 1200,
+        "serviceClass": "F",
+        "departureCity": "BDS",
+        "destinationCity": "BDS",
+        "departureDate": "2022-12-20"
+      }
+    }
+  }
+}

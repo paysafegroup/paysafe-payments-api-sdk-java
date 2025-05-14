@@ -1,0 +1,160 @@
+{
+  "id": "string",
+  "paymentHandleToken": "string",
+  "status": "RECEIVED",
+  "action": "NONE",
+  "usage": "SINGLE_USE",
+  "executionMode": "SYNCHRONOUS",
+  "timeToLiveSeconds": 0,
+  "gatewayResponse": {
+    "id": "string",
+    "processor": "string",
+    "status": "string",
+    "code": "string",
+    "responseCode": "string",
+    "avsResponse": "MATCH",
+    "avsCode": "string",
+    "balanceResponse": "string",
+    "mid": "string",
+    "terminalId": "string",
+    "batchNumber": "string",
+    "seqNumber": "string",
+    "effectiveDate": "string",
+    "financingType": "string",
+    "plan": "string",
+    "gracePeriod": "string",
+    "term": "string",
+    "responseId": "string",
+    "requestId": "string",
+    "description": "string",
+    "authCode": "string",
+    "txnDateTime": "string",
+    "referenceNbr": "string",
+    "responseReasonCode": "string",
+    "cvvVerification": "MATCH",
+    "cvv2Result": "string",
+    "orderId": "string",
+    "profile": {
+      "locale": "en_US",
+      "firstName": "string",
+      "lastName": "string",
+      "email": "string",
+      "phone": "string",
+      "dateOfBirth": {
+        "day": 6,
+        "month": 5,
+        "year": 1998
+      },
+      "identityDocuments": [
+        {
+          "identityDocuments": [
+            {
+              "type": "SOCIAL_SECURITY",
+              "documentNumber": "SSN123456"
+            }
+          ]
+        }
+      ],
+      "merchantCustomerId": "string"
+    }
+  },
+  "links": {
+    "rel": "redirect_payment",
+    "href": "http://api.paysafe.com/card/redirect/372b5ee7-6360-4403-b444-164f8f1d2709",
+    "method": "GET"
+  },
+  "txnTime": "2019-08-24T14:15:22Z",
+  "updatedTime": "2019-08-24T14:15:22Z",
+  "statusTime": "2019-08-24T14:15:22Z",
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "statusReason": "AUTH_VOIDED",
+  "customerId": "string",
+  "error": {
+    "code": "5270",
+    "message": "The credentials provided with the request do not have permission to access the data requested.",
+    "details": [
+      "access to {stpAccount:1001076700} denied."
+    ],
+    "fieldErrors": [
+      {
+        "field": "street",
+        "error": "Unexpected characters"
+      }
+    ]
+  },
+  "merchantRefNum": "string",
+  "transactionType": "PAYMENT",
+  "paymentType": "ACH",
+  "amount": 500,
+  "currencyCode": "str",
+  "customerIp": "string",
+  "billingDetails": {
+    "id": "string",
+    "nickName": "string",
+    "street": "string",
+    "street1": "string",
+    "street2": "Unit 201",
+    "city": "Toronto",
+    "state": "ON",
+    "zip": "M5H 2N2",
+    "country": "CA"
+  },
+  "profile": {
+    "locale": "en_US",
+    "firstName": "string",
+    "lastName": "string",
+    "email": "string",
+    "phone": "string",
+    "dateOfBirth": {
+      "day": 6,
+      "month": 5,
+      "year": 1998
+    },
+    "identityDocuments": [
+      {
+        "identityDocuments": [
+          {
+            "type": "SOCIAL_SECURITY",
+            "documentNumber": "SSN123456"
+          }
+        ]
+      }
+    ],
+    "merchantCustomerId": "string"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "OnlineStore",
+    "phone": "999-8888"
+  },
+  "accountId": "string",
+  "paymentHandleTokenFrom": "string",
+  "customerOperation": "ADD",
+  "singleUseCustomerToken": "string",
+  "shippingDetails": {
+    "recipientName": "Vishnu",
+    "street": "20735 Stevens Creek Blvd",
+    "street2": "Montessori",
+    "city": "Cupertino",
+    "zip": "95014",
+    "country": "US",
+    "state": "CA"
+  },
+  "returnLinks": {
+    "rel": "default",
+    "href": "https://US_commerce_site/payment/return/success",
+    "method": "GET"
+  },
+  "dupCheck": false,
+  "ach": {
+    "accountHolderName": "XYZ Company",
+    "payMethod": "WEB",
+    "accountType": "SAVINGS",
+    "accountNumber": "988772192",
+    "routingNumber": "211589828",
+    "lastDigits": "92"
+  }
+}

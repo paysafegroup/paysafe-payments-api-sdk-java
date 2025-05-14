@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "payments": [
+    {
+      "id": "8190c675-6d68-4cd7-a29c-55b406addaeb",
+      "amount": 1900,
+      "merchantRefNum": "merchantRefNum-145",
+      "settleWithAuth": false,
+      "paymentHandleToken": "SChfCGCURe5NiLIv",
+      "authCode": "107212",
+      "txnTime": "2018-12-14T15:12:18Z",
+      "customerIp": "10.10.12.64",
+      "description": "Magazine subscription",
+      "currencyCode": "GBP",
+      "paymentType": "CARD",
+      "status": "COMPLETED",
+      "avsResponse": "MATCH",
+      "cvvVerification": "MATCH",
+      "availableToSettle": 40,
+      "paymentFacilitator": {
+        "subMerchant": {
+          "id": "123456789",
+          "name": "PayFacSubMerchant",
+          "phone": "478234562331",
+          "email": "payfac@mail.com",
+          "url": "www.payfac.com",
+          "address": {
+            "street": "100 Queen Street West",
+            "city": "Toronto",
+            "state": "ON",
+            "country": "CA",
+            "zip": "M5H 2N2"
+          }
+        }
+      },
+      "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+    }
+  ]
+}
