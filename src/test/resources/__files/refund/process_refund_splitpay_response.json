@@ -1,0 +1,13 @@
+{
+  "id": "c7ef07b2-0069-4f58-b9e2-0f4cdbc6c725",
+  "merchantRefNum": "merchantRefNum-118",
+  "amount": 190,
+  "txnTime": "2018-12-11T16:33:49Z",
+  "status": "PENDING",
+  "splitpay": [
+    {
+      "linkedAccount": "123124124",
+      "amount": 500
+    }
+  ]
+}

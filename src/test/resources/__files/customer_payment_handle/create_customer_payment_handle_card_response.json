@@ -1,0 +1,22 @@
+{
+  "id": "02858471-6083-49ef-afee-015e4cc5135a",
+  "merchantRefNum": "wed18012023Test",
+  "status": "PAYABLE",
+  "usage": "MULTI_USE",
+  "paymentType": "CARD",
+  "action": "NONE",
+  "paymentHandleToken": "CPSql8EPmo45jNB",
+  "card": {
+    "lastDigits": "0000",
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "cardBin": "403711",
+    "holderName": "Dilip",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "billingDetailsId": "24ce6840-6d41-4cfa-b27d-cc3e26124236",
+  "customerId": "af363924-bd85-4996-8b77-d78fd696b32b"
+}

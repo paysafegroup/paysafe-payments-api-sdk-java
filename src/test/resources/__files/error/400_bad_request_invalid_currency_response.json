@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "5001",
+    "message": "Invalid currency",
+    "details": [
+      "currencyCode INVALID is not valid"
+    ]
+  }
+}

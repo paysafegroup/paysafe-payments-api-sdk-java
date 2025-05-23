@@ -1,0 +1,29 @@
+{
+  "merchantRefNum": "wed18012023Test",
+  "card": {
+    "cardNum": "4037111111000000",
+    "cardExpiry": {
+      "month": 10,
+      "year": 2025
+    },
+    "cvv": "111",
+    "holderName": "Dilip",
+    "issuingCountry": "US"
+  },
+  "paymentType": "CARD",
+  "amount": 900,
+  "currencyCode": "USD",
+  "customerIp": "172.0.0.1",
+  "billingDetails": {
+    "nickName": "Home",
+    "street": "100 Queen",
+    "street2": "Unit 201",
+    "city": "Toronto",
+    "zip": "M5H 2N2",
+    "country": "CA"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "OnlineStore",
+    "phone": "12345678"
+  }
+}

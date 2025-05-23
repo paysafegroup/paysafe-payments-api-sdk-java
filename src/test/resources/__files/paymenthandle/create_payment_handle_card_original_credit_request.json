@@ -1,0 +1,48 @@
+{
+  "merchantRefNum": "a9b2b8d2b9458c8beeb89dbce669",
+  "transactionType": "ORIGINAL_CREDIT",
+  "accountId": "1009688230",
+  "card": {
+    "cardNum": "4037112233000001",
+    "cardExpiry": {
+      "month": 10,
+      "year": 2025
+    },
+    "cvv": "111",
+    "holderName": "Dilip",
+    "issuingCountry": "US"
+  },
+  "paymentType": "CARD",
+  "amount": 100,
+  "currencyCode": "USD",
+  "customerIp": "172.0.0.1",
+  "billingDetails": {
+    "nickName": "Home",
+    "street": "TEST",
+    "city": "CA",
+    "state": "CA",
+    "country": "US",
+    "zip": "12345"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "OnlineStore",
+    "phone": "1234567899"
+  },
+  "returnLinks": [
+    {
+      "rel": "default",
+      "href": "https://usgaminggamblig.com/payment/return/",
+      "method": "GET"
+    },
+    {
+      "rel": "on_completed",
+      "href": "https://usgaminggamblig.com/payment/return/success",
+      "method": "GET"
+    },
+    {
+      "rel": "on_failed",
+      "href": "https://usgaminggamblig.com/payment/return/failed",
+      "method": "GET"
+    }
+  ]
+}

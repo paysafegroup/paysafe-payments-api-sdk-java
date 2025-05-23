@@ -1,0 +1,11 @@
+{
+  "nickName": "Office",
+  "street": "101 Queen",
+  "street2": "Unit 202",
+  "city": "Toronto0",
+  "zip": "M5H 2N2",
+  "country": "US",
+  "state": "NY",
+  "phone": "903-788-3901",
+  "defaultShippingAddressIndicator": false
+}

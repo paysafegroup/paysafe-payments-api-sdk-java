@@ -1,0 +1,9 @@
+{
+  "error": {
+    "code": "1000",
+    "message": "Internal Error",
+    "details": [
+      "An internal error occurred."
+    ]
+  }
+}

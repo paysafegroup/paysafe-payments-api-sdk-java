@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "settlements": [
+    {
+      "merchantRefNum": "8fdaaa64-17c8-4697-bb99-85024432cbd0",
+      "amount": 500,
+      "dupCheck": true,
+      "id": "6273d885-a7f8-4d8d-aebd-123539c3eba3",
+      "availableToRefund": 500,
+      "txnTime": "2025-02-03T16:40:43Z",
+      "status": "COMPLETED",
+      "gatewayReconciliationId": "4470621170"
+    }
+  ]
+}

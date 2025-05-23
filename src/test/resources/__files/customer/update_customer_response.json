@@ -1,0 +1,21 @@
+{
+  "id": "d60fc496-9023-4641-890e-e05c852d2ac4",
+  "status": "ACTIVE",
+  "merchantCustomerId": "546456451",
+  "locale": "en_US",
+  "firstName": "Suresh",
+  "middleName": "Venkata",
+  "lastName": "Chagalamarri",
+  "dateOfBirth": {
+    "day": 6,
+    "month": 5,
+    "year": 1998
+  },
+  "gender": "M",
+  "email": "johnjames.smith@email.com",
+  "phone": "777-444-9999",
+  "cellPhone": "777-555-8888",
+  "nationality": "Indian",
+  "ip": "192.0.126.111",
+  "paymentToken": "PNWaCnbFb7Y5zUk"
+}

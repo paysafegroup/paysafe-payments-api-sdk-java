@@ -1,0 +1,28 @@
+{
+  "merchantRefNum": "xzcxzcwqeqwewewqer",
+  "paymentType": "CARD",
+  "currencyCode": "GBP",
+  "customerIp": "10.10.12.64",
+  "billingDetails": {
+    "street": "Andhra bank lane",
+    "street2": "Manikonda",
+    "city": "Hyderabad",
+    "state": "TS",
+    "country": "IN",
+    "zip": "500089"
+  },
+  "card": {
+    "cardNum": "4222222222222",
+    "lastDigits": "2222",
+    "cardExpiry": {
+      "month": "12",
+      "year": "2021"
+    },
+    "cvv": "111",
+    "issuingCountry": "US"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "Casino slots payin",
+    "phone": "189134336"
+  }
+}

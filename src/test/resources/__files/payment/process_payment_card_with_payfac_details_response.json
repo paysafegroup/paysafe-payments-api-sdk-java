@@ -1,0 +1,76 @@
+{
+  "id": "398e086d-f47b-4b3f-8a18-621e7ed35378",
+  "paymentType": "CARD",
+  "paymentHandleToken": "SC2INoYvSe2MzQuB",
+  "merchantRefNum": "fc5b62df1202e491475d",
+  "currencyCode": "USD",
+  "settleWithAuth": true,
+  "txnTime": "2023-01-27T10:15:29Z",
+  "billingDetails": {
+    "nickName": "Home",
+    "street": "TEST",
+    "city": "CA",
+    "zip": "94404",
+    "state": "CA",
+    "country": "US"
+  },
+  "customerIp": "172.0.0.1",
+  "status": "COMPLETED",
+  "amount": 500,
+  "preAuth": false,
+  "description": "Magazine subscription",
+  "availableToSettle": 0,
+  "gatewayResponse": {
+    "code": "VPS",
+    "responseCode": "00",
+    "responseCodeDescription": "Approved and completed",
+    "avsCode": "X",
+    "authCode": "130416",
+    "avsResponse": "MATCH",
+    "cvvVerification": "MATCH",
+    "serializable": true
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "100,test",
+    "phone": "1000000000"
+  },
+  "settlements": [
+    {
+      "merchantRefNum": "fc5b62df1202e491475d",
+      "amount": 500,
+      "id": "398e086d-f47b-4b3f-8a18-621e7ed35378",
+      "availableToRefund": 500,
+      "txnTime": 1674814529000,
+      "status": "PENDING"
+    }
+  ],
+  "card": {
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "holderName": "Dilip",
+    "cardType": "VI",
+    "cardBin": "400000",
+    "lastDigits": "1026",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    },
+    "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+  }
+}

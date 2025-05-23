@@ -1,0 +1,79 @@
+{
+  "id": "1871638c-0be8-42b8-b5c3-224f8d52ef20",
+  "paymentType": "CARD",
+  "paymentHandleToken": "SCTGXiTclLWRk5Pt",
+  "merchantRefNum": "2ca14f87ff6f60976d18",
+  "currencyCode": "USD",
+  "txnTime": "2023-01-20T06:03:14Z",
+  "billingDetails": {
+    "street": "TEST",
+    "city": "CA",
+    "zip": "12345",
+    "state": "CA",
+    "country": "US"
+  },
+  "customerIp": "172.10.12.64",
+  "status": "COMPLETED",
+  "description": "Winning payment from Loto 649",
+  "gatewayResponse": {
+    "authCode": "XXXXXX",
+    "cvvVerification": "NOT_PROCESSED",
+    "nameVerification": "MATCH",
+    "firstNameVerification": "MATCH",
+    "lastNameVerification": "MATCH",
+    "serializable": true
+  },
+  "card": {
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "holderName": "Dilip",
+    "cardType": "VI",
+    "cardBin": "453091",
+    "lastDigits": "2345",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "profile": {
+    "locale": "en_US",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@somedomain.com",
+    "phone": "713-444-5555",
+    "dateOfBirth": {
+      "day": 6,
+      "month": 5,
+      "year": 1998
+    }
+  },
+  "authentication": {
+    "id": "5d4db3bc-34c9-417f-a051-0d992ad9284e",
+    "eci": 5,
+    "cavv": "AAABBhkXYgAAAAACBxdiENhf7A+=",
+    "xid": "aWg4N1ZZOE53TkFrazJuMmkyRDA=",
+    "status": "COMPLETED ",
+    "merchantRefNum": "merchantABC-123-authentications",
+    "threeDEnrollment": "Y",
+    "threeDResult": "Y",
+    "signatureStatus": "Y",
+    "exemptionIndicator": "LOW_VALUE_EXEMPTION"
+  },
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    }
+  },
+  "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+}

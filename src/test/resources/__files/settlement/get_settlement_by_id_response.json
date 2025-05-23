@@ -1,0 +1,23 @@
+{
+  "merchantRefNum": "8fdaaa64-17c8-4697-bb99-85024432cbd0",
+  "amount": 500,
+  "dupCheck": true,
+  "splitpay": null,
+  "airlineTravelDetails": null,
+  "cruiselineTravelDetails": null,
+  "lodgingDetails": null,
+  "carRentalDetails": null,
+  "id": "8d951743-78e5-4fa5-aa15-2c42f0c05228",
+  "paymentType": null,
+  "availableToRefund": 500,
+  "childAccountNum": null,
+  "txnTime": "2025-02-03T16:40:43Z",
+  "status": "COMPLETED",
+  "error": null,
+  "riskReasonCode": null,
+  "gatewayResponse": null,
+  "gatewayReconciliationId": "4470621170",
+  "liveMode": null,
+  "updatedTime": null,
+  "statusTime": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "218d68c7-77c8-4d37-9d06-0a4bb5272adb",
+  "merchantRefNum": "ad9c23c2-509b-43ae-bf5d-64554c9fc378",
+  "status": "INITIATED",
+  "usage": "MULTI_USE",
+  "paymentType": "CARD",
+  "action": "NONE",
+  "paymentHandleToken": "Cy4WEGJ9IWIkcUn",
+  "billingDetailsId": "786cf0cd-4296-43ce-8a57-5f4675e3fafd",
+  "card": {
+    "lastDigits": "2222",
+    "cardExpiry": {
+      "month": "12",
+      "year": "2021"
+    },
+    "issuingCountry": "US"
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "Casino slots payin",
+    "phone": "189134336"
+  }
+}

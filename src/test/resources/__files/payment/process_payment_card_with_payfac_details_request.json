@@ -1,0 +1,29 @@
+{
+  "merchantRefNum": "fc5b62df1202e491475d",
+  "amount": 500,
+  "currencyCode": "USD",
+  "dupCheck": false,
+  "settleWithAuth": true,
+  "paymentHandleToken": "SC2INoYvSe2MzQuB",
+  "customerIp": "172.0.0.1",
+  "description": "Magazine subscription",
+  "keywords": [
+    "SILVER"
+  ],
+  "paymentFacilitator": {
+    "subMerchant": {
+      "id": "123456789",
+      "name": "PayFacSubMerchant",
+      "phone": "478234562331",
+      "email": "payfac@mail.com",
+      "url": "www.payfac.com",
+      "address": {
+        "street": "100 Queen Street West",
+        "city": "Toronto",
+        "state": "ON",
+        "country": "CA",
+        "zip": "M5H 2N2"
+      }
+    }
+  }
+}

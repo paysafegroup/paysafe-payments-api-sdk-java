@@ -1,0 +1,50 @@
+{
+  "id": "612d8958-6a3e-4d70-b432-aac1f38de671",
+  "paymentType": "CARD",
+  "paymentHandleToken": "SCPJ4dAVEe8fyoIE",
+  "merchantRefNum": "54a9c50c5f2707c813e5",
+  "currencyCode": "USD",
+  "settleWithAuth": false,
+  "txnTime": "2023-01-20T05:42:10Z",
+  "billingDetails": {
+    "nickName": "Home",
+    "street": "TEST",
+    "city": "CA",
+    "zip": "94404",
+    "state": "CA",
+    "country": "US"
+  },
+  "customerIp": "172.0.0.1",
+  "status": "COMPLETED",
+  "amount": 500,
+  "preAuth": false,
+  "description": "Magazine subscription",
+  "availableToSettle": 500,
+  "gatewayResponse": {
+    "code": "VPS",
+    "responseCode": "00",
+    "responseCodeDescription": "Approved and completed",
+    "avsCode": "X",
+    "authCode": "108173",
+    "avsResponse": "MATCH",
+    "cvvVerification": "MATCH",
+    "serializable": true
+  },
+  "merchantDescriptor": {
+    "dynamicDescriptor": "100,test",
+    "phone": "1000000000"
+  },
+  "card": {
+    "cardExpiry": {
+      "month": "10",
+      "year": "2025"
+    },
+    "holderName": "Dilip",
+    "cardType": "VI",
+    "cardBin": "400000",
+    "lastDigits": "1026",
+    "cardCategory": "CREDIT",
+    "issuingCountry": "US"
+  },
+  "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+}
