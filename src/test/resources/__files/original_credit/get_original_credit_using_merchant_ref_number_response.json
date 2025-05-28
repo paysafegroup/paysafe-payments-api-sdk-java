@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "originalCredits": [
+    {
+      "id": "e075f2ae-dfc4-4f6d-8d89-61158367b6a6",
+      "amount": 40,
+      "merchantRefNum": "merchantRefNum-151",
+      "txnTime": "2018-12-11T16:33:49Z",
+      "paymentHandleToken": "SC9mbfZSITB5OwDJ",
+      "customerIp": "204.91.0.12",
+      "currencyCode": "GBP",
+      "paymentType": "CARD",
+      "status": "INITIATED",
+      "description": "Winning payment from Loto 649",
+      "paymentFacilitator": {
+        "subMerchant": {
+          "id": "123456789",
+          "name": "PayFacSubMerchant",
+          "phone": "478234562331",
+          "email": "payfac@mail.com",
+          "url": "www.payfac.com",
+          "address": {
+            "street": "100 Queen Street West",
+            "city": "Toronto",
+            "state": "ON",
+            "country": "CA",
+            "zip": "M5H 2N2"
+          }
+        }
+      },
+      "merchantDescriptor": {
+        "dynamicDescriptor": "OnlineStore"
+      },
+      "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+    }
+  ]
+}

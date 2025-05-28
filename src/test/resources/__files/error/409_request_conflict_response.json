@@ -1,0 +1,13 @@
+{
+  "error": {
+    "code": "DW-CUSTOMER-CONFLICT",
+    "message": "Customer conflict",
+    "additionalDetails": [
+      {
+        "message": "Customer already exists.",
+        "code": "22",
+        "type": "Duplication"
+      }
+    ]
+  }
+}

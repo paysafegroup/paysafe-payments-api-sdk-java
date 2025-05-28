@@ -1,0 +1,78 @@
+{
+  "merchantRefNum": "febf0cc749a6c9d243c9",
+  "amount": 500,
+  "currencyCode": "USD",
+  "dupCheck": true,
+  "settleWithAuth": true,
+  "paymentHandleToken": "SCbuMkPGvBGSTCt3",
+  "customerIp": "172.0.0.1",
+  "description": "Magazine subscription",
+  "airlineTravelDetails": {
+    "passengerName": "John Smith",
+    "departureDate": "2023-05-25",
+    "origin": "YUL",
+    "computerizedReservationSystem": "BLAN",
+    "customerReferenceNumber": "123456",
+    "passengerNameRecord": "passNamRec",
+    "additionalBookingReference": "additionalBookingRef",
+    "totalFare": 1000,
+    "totalFee": 100,
+    "totalTaxes": 10,
+    "ticket": {
+      "ticketNumber": "198J8928",
+      "isRestrictedTicket": false,
+      "isAgencyCard": true,
+      "ticketPrice": 10,
+      "numberOfPax": 5
+    },
+    "passengers": {
+      "passenger1": {
+        "ticketNumber": "56827",
+        "firstName": "firstName",
+        "lastName": "lastName",
+        "phoneNumber": "7181855783",
+        "passengerCode": "INF",
+        "gender": "M"
+      },
+      "passenger2": {
+        "ticketNumber": "56827",
+        "firstName": "firstName",
+        "lastName": "lastName",
+        "phoneNumber": "7181855783",
+        "passengerCode": "INF",
+        "gender": "M"
+      }
+    },
+    "travelAgency": {
+      "code": "AGCODE",
+      "name": "Agency name",
+      "agencyAddress": {
+        "street": "street",
+        "zip": "ZIP12",
+        "country": "GB"
+      }
+    },
+    "tripLegs": {
+      "leg1": {
+        "serviceClass": "F",
+        "isStopOverAllowed": false,
+        "destination": "CDG",
+        "fareBasis": "VMAY",
+        "departureDate": "2023-05-25",
+        "serviceClassFee": 10,
+        "departureAirport": "SOF",
+        "departureTime": "2022-01-26T11:32:29Z",
+        "arrivalTime": "2022-01-28T11:32:29Z",
+        "conjunctionTicket": "T124",
+        "couponNumber": "COUPON123",
+        "notation": "sample",
+        "taxes": "10",
+        "flight": {
+          "carrierCode": "TS",
+          "flightNumber": "937",
+          "airlineIcaoCode": "DLH"
+        }
+      }
+    }
+  }
+}

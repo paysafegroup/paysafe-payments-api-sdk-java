@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "refunds": [
+    {
+      "id": "a9318b525273ee3cda79a2f947a9",
+      "merchantRefNum": "a9318b525273ee3cda79a2f947a9",
+      "txnTime": "2023-02-01T16:11:45Z",
+      "status": "PENDING",
+      "amount": 1116
+    }
+  ]
+}

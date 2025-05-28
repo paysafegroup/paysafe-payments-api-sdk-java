@@ -1,0 +1,21 @@
+{
+  "id": "8640a692-556e-4e31-b10b-d01256328421",
+  "merchantRefNum": "42206439877181100",
+  "status": "PAYABLE",
+  "usage": "MULTI_USE",
+  "paymentType": "EFT",
+  "action": "NONE",
+  "executionMode": "SYNCHRONOUS",
+  "accountId": "1013691440",
+  "paymentHandleToken": "DSR5qCCJZElTvxe",
+  "eft": {
+    "lastDigits": "12",
+    "accountHolderName": "XYZ Company",
+    "paymentDescriptor": "payment dtr",
+    "institutionId": "001",
+    "transitNumber": "22446"
+  },
+  "paymentHandleTokenFrom": "SAOMuI4DuXuLXulf",
+  "billingDetailsId": "b7be6f48-143d-4be0-95aa-8e8539f17ccc",
+  "customerId": "e10bd22b-056f-4997-a4f3-3c4d2032baa4"
+}

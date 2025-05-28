@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "numberOfRecords": 1,
+    "limit": 10,
+    "page": 1
+  },
+  "standaloneCredits": [
+    {
+      "id": "eddbec36-6fc7-48fb-a694-dfc5b314ec0d",
+      "amount": 500,
+      "merchantRefNum": "32be35aac78dbfe252a2",
+      "customerIp": "204.91.0.12",
+      "txnTime": "2023-01-20T05:59:13Z",
+      "currencyCode": "USD",
+      "status": "PENDING",
+      "description": "Winning payment from Loto 649",
+      "paymentType": "CARD",
+      "card": {
+        "cardExpiry": {
+          "month": "10",
+          "year": "2025"
+        },
+        "cardType": "MC",
+        "lastDigits": "0000",
+        "issuingCountry": "US"
+      },
+      "billingDetails": {
+        "street": "TEST",
+        "city": "CA",
+        "country": "US",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "paymentFacilitator": {
+        "subMerchant": {
+          "id": "123456789",
+          "name": "PayFacSubMerchant",
+          "phone": "478234562331",
+          "email": "payfac@mail.com",
+          "url": "www.payfac.com",
+          "address": {
+            "street": "100 Queen Street West",
+            "city": "Toronto",
+            "state": "ON",
+            "country": "CA",
+            "zip": "M5H 2N2"
+          }
+        }
+      },
+      "merchantDescriptor": {
+        "dynamicDescriptor": "OnlineStore"
+      },
+      "cardSchemeTransactionId": "SIM1UZ3YM7IS1"
+    }
+  ]
+}

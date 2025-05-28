@@ -1,0 +1,15 @@
+{
+  "merchantRefNum": "12345",
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "gatewayResponse": {
+    "responseCodeDescription": "Refer to Issuer"
+  },
+  "error": {
+    "code": "ALTERNATE-PAYMENTS-GATEWAY-4",
+    "message": "Transaction declined",
+    "details": [
+      "The transaction was declined by the processing gateway.",
+      "Merchant configuration is incorrect. Verify setup in Netbanx."
+    ]
+  }
+}
