@@ -18,7 +18,7 @@ A Spring Boot demo application showcasing the Paysafe Payments SDK.
 
 ## Setup
 
-1. Place the correct Paysafe SDK JAR (e.g., `sdk-java-2.0.0.jar`) in `examples/libs/` (or update `build.gradle.kts` to use a Maven dependency).
+1. Place the correct Paysafe SDK JAR (e.g., `sdk-java-2.0.1.jar`) in `examples/libs/` (or update `build.gradle.kts` to use a Maven dependency).
 2. You can run the app using our provided API credentials, or you can use your own credentials.   
 To use your own API credentials, edit `src/main/resources/application.properties` with:
 

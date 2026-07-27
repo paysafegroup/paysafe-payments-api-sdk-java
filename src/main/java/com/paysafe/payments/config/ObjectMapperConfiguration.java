@@ -23,7 +23,7 @@ public class ObjectMapperConfiguration {
 
   private static ObjectMapper initializeObjectMapper() {
     return new ObjectMapper()
-        .setSerializationInclusion(Include.NON_NULL)
+        .setDefaultPropertyInclusion(Include.NON_NULL)
         .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
         .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
         .findAndRegisterModules();

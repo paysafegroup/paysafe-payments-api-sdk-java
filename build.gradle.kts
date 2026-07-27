@@ -7,10 +7,10 @@ plugins {
 
 val applicationJavaVersion = 11
 val jacocoVersion = "0.8.15"
-val jacksonVersion = "2.22.0"
+val jacksonVersion = "2.22.1"
 val junitVersion = "5.14.4"
 val slf4jVersion = "2.0.17"
-val apacheHttpClientVersion = "5.6.1"
+val apacheHttpClientVersion = "5.6.2"
 val jsonSmartVersion = "2.6.0"
 val mockitoVersion = "5.23.0"
 val logbackClassicVersion = "1.5.35"

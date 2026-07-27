@@ -372,9 +372,9 @@ public class PaysafeApiClient {
           .setDefaultConnectionConfig(ConnectionConfig.custom()
               .setConnectTimeout(Timeout.ofMilliseconds(optionsToUse.getConnectTimeout()))
               .build())
-          .setTlsSocketStrategy((TlsSocketStrategy) ClientTlsStrategyBuilder.create()
+          .setTlsSocketStrategy(ClientTlsStrategyBuilder.create()
               .setSslContext(customSslContext)
-              .build())
+              .buildClassic())
           .build();
     } else {
       connectionManager = PoolingHttpClientConnectionManagerBuilder.create()
@@ -571,11 +571,18 @@ public class PaysafeApiClient {
   }
 
   /**
-   * Sets the request body for POST, PUT, and PATCH requests
+   * Sets the request body for POST, PUT, and PATCH requests.
+   * If the requestBody is already a String, it is used as-is (assumed to be pre-serialized JSON).
+   * Otherwise, it is serialized to JSON using the configured ObjectMapper.
    */
   private void setRequestBody(BasicClassicHttpRequest httpRequest, Object requestBody) throws PaysafeSdkException {
     if (isRequestWithBody(httpRequest) && requestBody != null) {
-      String jsonRequestBody = buildJsonRequestBody(requestBody);
+      String jsonRequestBody;
+      if (requestBody instanceof String) {
+        jsonRequestBody = (String) requestBody;
+      } else {
+        jsonRequestBody = buildJsonRequestBody(requestBody);
+      }
       StringEntity requestEntity = new StringEntity(jsonRequestBody, ContentType.APPLICATION_JSON);
       setEntityOnRequest(httpRequest, requestEntity);
     }
@@ -586,8 +593,8 @@ public class PaysafeApiClient {
    */
   private boolean isRequestWithBody(BasicClassicHttpRequest httpRequest) {
     return httpRequest instanceof HttpPost ||
-           httpRequest instanceof HttpPut ||
-           httpRequest instanceof HttpPatch;
+        httpRequest instanceof HttpPut ||
+        httpRequest instanceof HttpPatch;
   }
 
   /**

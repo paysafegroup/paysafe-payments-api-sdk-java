@@ -8,7 +8,7 @@ function openRefundModal(txId, paymentMethod) {
     form.action = '/refund/' + txId;
     if (paymentMethod === 'PAYSAFECARD' || paymentMethod === 'PAYSAFECASH') {
         title.textContent = 'Refund – ' + (paymentMethod === 'PAYSAFECARD' ? 'PaysafeCard' : 'PaysafeCash');
-        msg.textContent = 'Please enter the registered email to which the refund will be sent.';
+        msg.textContent = 'Enter the registered PaysafeCard email to which the refund will be sent.';
     } else {
         title.textContent = 'Refund';
         msg.textContent = '';

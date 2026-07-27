@@ -1,6 +1,23 @@
 # Change Log
 
+## [2.0.1] - 2026-07-23
+
+### Fixed
+
+- Fixed direct request issue when payload is already serialized.
+
 ## [2.0.0] - 2026-06-25
+
+### Changed
+
+- Replaced deprecated Apache HttpClient API calls.
+- Replaced deprecated ObjectMapper serialization configuration.
+
+### Dependencies
+
+- Updated dependencies:
+  - Apache HttpClient: 5.6.2
+  - Jackson: 2.22.2
 
 ### Added
 
